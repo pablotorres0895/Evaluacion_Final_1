@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Educación</title>
+</head>
+<body>
+	<!--Encabezado-->
+	<header>
+		<svg width="200" height="200">       
+		    <image xlink:href="../images/logo.svg" height="200" width="200"/>
+		</svg>
+		<h1>Hoja de Vida</h1>
+		<h2>Jose Pablo Peralta Torres</h2>
+		<h3>20 de Agosto de 1995, <em>Costa Rica</em></h3>
+	</header>
+	<!--Navegación-->
+	
+	<nav>
+		<a href="../index.html">Inicio</a> |
+		<a href="educacion.html">Educación</a> |
+		<a href="experiencia.html">Experiencia</a> 
+	</nav>
+	<!--Contenido-->
+	
+	<h2>Educación</h2>
+	<table border="1" colspan="2">
+		<thead>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>¿Culminó?</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2012</td>
+				<td>Liceo Laboratorio, Bachiller de Colegio</td>
+				<td>Liberia, Costa Rica</td>
+				<td>Si</td>
+			</tr>
+
+			<tr>
+				<td>2015</td>
+				<td>Universidad Nacional, Diploma Ingeniero en Sistemas</td>
+				<td>Liberia, Costa Rica</td>
+				<td>Si</td>
+			</tr>
+
+			<tr>
+				<td>2016</td>
+				<td>Universidad Nacional, Bachiller Ingeniero en Sistemas</td>
+				<td>Liberia, Costa Rica</td>
+				<td>Si</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h3>Agregar Estudios</h3>
+	<form autocomplete="off">
+		<legend>Agregar Estudios</legend>
+		<p>
+			<label for="anio">Año:</label>
+			<select id="anio">
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+			</select>
+		</p>
+		<p>
+			<label for="institucion">Institución:</label>
+			<input id="institucion" type="text" name="institucion" required>
+		</p>
+		<p>
+			<label for="lugar">Lugar:</label>
+			<textarea id="lugar" cols="30" rows="2"></textarea>
+		</p>
+		<p>
+			<input type="submit" name="">
+		</p>
+	</form>
+	<!--Pie de Página-->
+	
+	<footer>
+		<p>Email: <strong>pablotorres0895@gmail.com</strong></p>
+		<p>Teléfono: <strong>(+506) 8709-1616</strong></p>
+		<p>Redes Sociales: <a href="https://www.facebook.com/josepablo.peraltatorres?ref=bookmarks" target="_blank">Facebook</a></p>
+		<p>Dirección: <strong>San Jose, Costa Rica</strong></p>
+	</footer>
+</body>
+</html>
